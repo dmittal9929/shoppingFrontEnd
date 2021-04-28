@@ -1,11 +1,11 @@
 html, body {
     background: #e3e3d8;
     font-family: sans-serif;
-    padding: 25px;
+    padding: 20px;
 }
 .wrapper {
-    width: 300px;
-    height: 500px;
+    width: 220px;
+    height: 400px;
     background: white;
     margin: auto;
     position: relative;
@@ -24,7 +24,7 @@ html, body {
     height: 100%;
 }
 .wrapper .container .top {
-    height: 80%;
+    height: 75%;
     width: 100%;
     background: url(https://s-media-cache-ak0.pinimg.com/736x/49/80/6f/49806f3f1c7483093855ebca1b8ae2c4.jpg) no-repeat center center;
     -webkit-background-size: 100%;
@@ -34,7 +34,7 @@ html, body {
 }
 .wrapper .container .bottom {
     width: 200%;
-    height: 20%;
+    height: 25%;
     transition: transform 0.5s;
 }
 .wrapper .container .bottom.clicked {
@@ -56,7 +56,7 @@ html, body {
     float: left;
 }
 .wrapper .container .bottom .left .details {
-    padding: 20px;
+    padding: 15px;
     float: left;
     width: calc(70% - 40px);
 }
@@ -70,7 +70,10 @@ html, body {
 }
 .wrapper .container .bottom .left .buy i {
     font-size: 30px;
-    padding: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     color: #254053;
     transition: transform 0.5s;
 }
@@ -103,7 +106,8 @@ html, body {
 }
 .wrapper .container .bottom .right .done i {
     font-size: 30px;
-    padding: 30px;
+    margin-top: 20px;
+    padding: 15px;
     color: white;
 }
 
@@ -111,7 +115,7 @@ html, body {
     width: calc(30% - 1px);
     clear: both;
     border-right: solid thin rgba(255, 255, 255, 0.3);
-    height: 70%;
+    height: 60%;
     background: #bc3b59;
     transition: transform 0.5s, background 0.5s;
 }
@@ -124,7 +128,8 @@ html, body {
 .wrapper .container .bottom .right .remove i {
     transition: transform 0.5s;
     font-size: 30px;
-    padding: 30px;
+    margin-top: 20px;
+    padding: 15px;
     color: white;
 }
 .wrapper .container .bottom .right:hover .remove, .wrapper .container .bottom  .right:hover .done  {
@@ -132,3 +137,6 @@ html, body {
 }
 
 
+.title{
+    height: 50px;
+}

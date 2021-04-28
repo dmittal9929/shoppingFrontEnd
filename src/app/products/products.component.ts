@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit {
-
+  emps =[1,2,3,4]
   constructor() { }
 
   ngOnInit(): void {

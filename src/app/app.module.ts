@@ -22,6 +22,6 @@ import { ProductsComponent } from './products/products.component'
     AppRoutingModule,FormsModule
   ],
   providers: [],
-  bootstrap: [PorductcardComponent,LoginComponent]
+  bootstrap: [ProductsComponent]
 })
 export class AppModule { }

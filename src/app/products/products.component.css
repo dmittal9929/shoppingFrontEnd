@@ -1,0 +1,11 @@
+.mainContainer{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+.ProdcutInside{
+    
+    position: relative;
+    display: inline-block;
+}
