@@ -25,11 +25,11 @@
 
 
 .custom{
-    margin-left: 20%;
-    height:400px;
-    width:60%;
-    margin-top:10%;
-    
+  position: relative;
+    height:200px;
+    width:20%;
+    margin:5%;
+    background-image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaYZYb0PTchaotaGxXek4LpKP5X1UgzPA0Eg&usqp=CAU" ;
         
         text-align: center;
         color: black;
@@ -38,20 +38,14 @@
     
 }
 
-.custom img{
-    object-fit: fill;
-    height: 400px;
-}
 
 .centered {
-    position: relative;
+    position: overlay;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     
   }
-
-
 
 
 
